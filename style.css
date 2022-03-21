@@ -31,5 +31,30 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	size: 18px;}
+
+.logo {width: 170px;}
+
+header {display: flex;
+justify-content: space-between;}
+
+ul{display: flex;
+list-style: none;}
+
+li{padding: 10px 15px;}
+
+.menu a {text-decoration: none;
+color:#242424;}
+.menu a:hover {background-color:#f195b2 ;
+	border: 1px solid #f195b2; padding: 15px 40px;
+border-radius: 20px;
+color: white;
 }
 
+
+
+.Hero {
+	background-image: url(images/cupcake.jpg);}
+
+h1 {text-align:left; font-size: 52px; color:white ;}
+.Hero p{font-size: 24px;font-style: italic; color:white ;}
