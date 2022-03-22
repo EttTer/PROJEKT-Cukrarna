@@ -31,7 +31,7 @@ html { box-sizing: border-box; }
 /* hlavička*/
 body {
 	margin: 0;
-	size: 18px;}
+	font-size: 18px;}
 
 .logo {width: 170px;}
 
@@ -111,6 +111,43 @@ margin:0;}
 
 /* Sekce druhá */
 
+h3 {font-size: 18px; line-height: 1.25;}
+.produkty p {padding: 0px 20px 20px 20px;}
+.produkty h3 {text-align: center; padding: 20px 20px 20px 20px;}
+
+.druha{background-color:#f0f0f0;}
+
+.druhabezpozadi {max-width: 1100px;
+margin: 0 auto 0 auto;}
+
+
+.produkty{display: flex;
+max-width: 1100px;
+margin: 0 auto 0 auto;}
+
+.produkt1 { background-color: white; margin-right: 30px;
+ border-radius: 5px; width: 252.5px;
+}
+
+
+.produkt2 { background-color: white; margin-right: 30px;
+	flex-basis: 25%; border-radius: 5px;width: 252.5px;
+	}
+
+.produkt3 { background-color: white; margin-right: 30px;
+	flex-basis: 25%; border-radius: 5px; width: 252.5px;}
+
+.produkt4 { background-color: white; margin-right: 30px;
+	flex-basis: 25%; border-radius: 5px;width: 252.5px;}
+
+.produkty img{width: 252.5px;}
+	
+
+
+
+
+
+/*
 .druha{background-color:#f0f0f0;}
 
 .produkty{display: flex;
@@ -126,7 +163,7 @@ margin: 0 auto 0 auto;}
 border: 1px solid white;
 border-radius: 5px;
 margin-bottom: 80px;}
-
+*/
 
 /* Sekce třetí*/
 
