@@ -158,7 +158,8 @@ h3 {
 }
 .produkty p {
   padding: 0px 20px 20px 20px;
-margin: 0;}
+  margin: 0;
+}
 .produkty h3 {
   text-align: center;
   padding: 20px 20px 20px 20px;
@@ -186,12 +187,11 @@ margin: 0;}
   border-radius: 5px;
   width: 252.5px;
 }
-.produkt 4 {margin: 0;}
+
 
 .produkty img {
   width: 252.5px;
 }
-
 
 /* Sekce třetí*/
 
@@ -206,8 +206,9 @@ margin: 0;}
   margin-right: 30px;
 }
 
-.peceni img {border-radius: 5px;}
-
+.peceni img {
+  border-radius: 5px;
+}
 
 /*footer */
 
